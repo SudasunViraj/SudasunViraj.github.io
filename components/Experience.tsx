@@ -33,14 +33,22 @@ export default function Experience() {
         </h3>
         {education.map((e) => (
           <Reveal key={e.degree}>
-            <div className="card-lift max-w-2xl rounded-2xl border border-white/10 bg-white/[0.03] p-7">
-              <p className="font-mono text-xs font-semibold uppercase tracking-[0.14em] text-sky-400">
-                {e.dates}
-              </p>
-              <h4 className="font-display mt-1.5 text-lg font-bold text-white">
-                {e.degree}
-              </h4>
-              <p className="mt-1 text-[15px] text-slate-400">{e.institution}</p>
+            <div className="card-lift flex max-w-2xl items-center gap-6 rounded-2xl border border-white/10 bg-white/[0.03] p-7">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/logos/nsbm.png"
+                alt="NSBM Green University logo"
+                className="h-12 w-auto shrink-0 opacity-60 brightness-0 invert"
+              />
+              <div>
+                <p className="font-mono text-xs font-semibold uppercase tracking-[0.14em] text-sky-400">
+                  {e.dates}
+                </p>
+                <h4 className="font-display mt-1.5 text-lg font-bold text-white">
+                  {e.degree}
+                </h4>
+                <p className="mt-1 text-[15px] text-slate-400">{e.institution}</p>
+              </div>
             </div>
           </Reveal>
         ))}
