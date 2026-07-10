@@ -303,6 +303,12 @@ export const experience: Role[] = [
     detail:
       "hSenid Mobile Solutions — appiGo (Retailer, Pay, Rush, Restohub), Applova (POS + e-commerce), and a CPaaS platform. Functional, regression, API, and end-to-end testing; Selenium + Cucumber automation.",
   },
+  {
+    dates: "Oct 2022 – Apr 2023",
+    role: "Trainee Quality Assurance Engineer",
+    detail:
+      "hSenid Mobile Solutions — internship where the fundamentals took root: test case design, structured execution, and defect reporting on production mobile and communications products. Promoted to Associate SE–QA at its close.",
+  },
 ];
 
 export interface Article {
