@@ -1,4 +1,4 @@
-import { experience } from "@/content/portfolio";
+import { experience, education } from "@/content/portfolio";
 import Reveal from "@/components/Reveal";
 import SectionHeading from "@/components/SectionHeading";
 
@@ -28,6 +28,22 @@ export default function Experience() {
             </Reveal>
           ))}
         </ol>
+        <h3 className="font-display mb-6 mt-14 text-xl font-bold text-white">
+          Education
+        </h3>
+        {education.map((e) => (
+          <Reveal key={e.degree}>
+            <div className="card-lift max-w-2xl rounded-2xl border border-white/10 bg-white/[0.03] p-7">
+              <p className="font-mono text-xs font-semibold uppercase tracking-[0.14em] text-sky-400">
+                {e.dates}
+              </p>
+              <h4 className="font-display mt-1.5 text-lg font-bold text-white">
+                {e.degree}
+              </h4>
+              <p className="mt-1 text-[15px] text-slate-400">{e.institution}</p>
+            </div>
+          </Reveal>
+        ))}
       </div>
     </section>
   );

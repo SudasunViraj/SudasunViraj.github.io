@@ -357,6 +357,20 @@ export const articles: Article[] = [
   },
 ];
 
+export interface Education {
+  dates: string;
+  degree: string;
+  institution: string;
+}
+
+export const education: Education[] = [
+  {
+    dates: "2019 – 2023",
+    degree: "BSc (Special) in Management Information Systems",
+    institution: "NSBM Green University",
+  },
+];
+
 export interface Certification {
   name: string;
   issuer: string;
