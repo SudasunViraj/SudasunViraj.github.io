@@ -29,6 +29,13 @@ export default function Hero() {
         <h1 className="animate-in delay-2 font-display mt-1 max-w-4xl text-[2.35rem] font-bold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
           <span className="text-gradient text-gradient-x">Sudasun Malaviarachchi</span>
         </h1>
+        {/* Mobile-only portrait, right after the name; desktop shows it in the right column */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/portrait.jpg"
+          alt="Portrait of Sudasun Malaviarachchi"
+          className="animate-in delay-3 mt-5 h-32 w-32 rounded-full border-2 border-sky-400/40 object-cover object-[50%_12%] shadow-[0_0_40px_-8px_rgba(56,189,248,0.4)] sm:h-36 sm:w-36 lg:hidden"
+        />
         <div className="animate-in delay-3">
           <Typewriter />
         </div>
@@ -106,7 +113,9 @@ export default function Hero() {
         </div>
         </div>
         <div className="animate-in delay-5 w-full min-w-0 max-w-md justify-self-center space-y-4 lg:justify-self-end">
-          <PortraitCard />
+          <div className="hidden lg:block">
+            <PortraitCard />
+          </div>
           <Terminal />
         </div>
       </div>
