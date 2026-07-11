@@ -51,7 +51,7 @@ export const caseStudies: CaseStudy[] = [
     title: "Standing Up Test Automation from Zero: a Playwright Framework for a FinTech Platform",
     diagram: "framework",
     situation:
-      "DigiApp is a workforce-management platform built for CDB, a FinTech customer — a domain where employee PII and compliance expectations raise the cost of every defect — and it had no test automation framework. As Senior QA Engineer at Modernie Business Solutions, I owned building that capability from scratch, on the same platform whose security posture I test (next project).",
+      "DigiApp is a workforce-management platform built for CDB, a FinTech customer — a domain where employee PII and compliance expectations raise the cost of every defect — and it had no test automation framework. As Senior Software Engineer, Quality Assurance at Modernie Business Solutions, I owned building that capability from scratch, on the same platform whose security posture I test (next project).",
     approach:
       "I designed and built the automation framework end-to-end on Playwright and TypeScript with a Cucumber BDD layer, so scenarios read as business-legible specifications while executing as fast, reliable browser automation. I fold agentic AI into day-to-day QA work — test design, coverage analysis, and suite maintenance — and complement functional automation with Apache JMeter load/stress testing and a security-aware testing lens appropriate to the FinTech domain.",
     result:
@@ -287,7 +287,7 @@ export interface Role {
 export const experience: Role[] = [
   {
     dates: "Apr 2026 – Present",
-    role: "Senior Quality Assurance Engineer",
+    role: "Senior Software Engineer Quality Assurance",
     detail:
       "Modernie Business Solutions — FinTech domain. Built the CDB DigiApp test automation framework from scratch (Playwright, TypeScript, Cucumber BDD); agentic-AI-assisted QA workflows; performance/load testing with Apache JMeter; security-aware testing for FinTech risk contexts.",
   },

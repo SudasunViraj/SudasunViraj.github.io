@@ -11,11 +11,11 @@ const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains" }
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://sudasunviraj.github.io"),
-  title: "Sudasun Malaviarachchi — Senior QA Engineer · Security Testing & Test Automation",
+  title: "Sudasun Malaviarachchi — Senior Software Engineer, QA · Security Testing & Test Automation",
   description:
-    "Sudasun Malaviarachchi — Senior QA Engineer in FinTech specializing in security testing (DAST/OWASP ZAP), test automation frameworks (Playwright, TypeScript, Cucumber BDD), agentic-AI-assisted QA, and decision-ready technical reporting.",
+    "Sudasun Malaviarachchi — Senior Software Engineer, Quality Assurance in FinTech specializing in security testing (DAST/OWASP ZAP), test automation frameworks (Playwright, TypeScript, Cucumber BDD), agentic-AI-assisted QA, and decision-ready technical reporting.",
   openGraph: {
-    title: "Sudasun Malaviarachchi — Senior QA Engineer",
+    title: "Sudasun Malaviarachchi — Senior Software Engineer, QA",
     description:
       "Security testing, test automation frameworks from scratch, and agentic AI in QA. I find the defects that matter — and kill the noise that doesn't.",
     url: "https://sudasunviraj.github.io",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sudasun Malaviarachchi — Senior QA Engineer",
+    title: "Sudasun Malaviarachchi — Senior Software Engineer, QA",
     description:
       "Security testing, test automation frameworks from scratch, and agentic AI in QA.",
   },

@@ -23,7 +23,7 @@ export default function Hero() {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75 motion-reduce:hidden" />
             <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-sky-400" />
           </span>
-          Senior QA Engineer · FinTech · Security Testing &amp; Test Automation
+          Senior Software Engineer – QA · FinTech · Security Testing &amp; Test Automation
         </p>
         <p className="animate-in delay-1 font-mono text-base text-slate-400">Hello, I&rsquo;m</p>
         <h1 className="animate-in delay-2 font-display mt-1 max-w-4xl text-[2.35rem] font-bold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
@@ -49,7 +49,7 @@ export default function Hero() {
         </p>
         <p className="animate-in delay-4 mt-4 max-w-2xl text-base leading-relaxed text-slate-400">
           A tester checks the build; a quality assurance engineer assures the
-          whole development lifecycle. Currently a Senior QA Engineer in FinTech,
+          whole development lifecycle. Currently a Senior Software Engineer in QA in FinTech,
           I build test automation
           frameworks from scratch (Playwright, TypeScript, Cucumber BDD) and put
           agentic AI to work inside the QA process itself. Across FinTech,
